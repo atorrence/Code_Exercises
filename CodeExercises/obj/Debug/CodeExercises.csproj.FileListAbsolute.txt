@@ -1,0 +1,5 @@
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises\bin\Debug\CodeExercises.dll
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises\bin\Debug\CodeExercises.pdb
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises\obj\Debug\CodeExercises.csprojResolveAssemblyReference.cache
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises\obj\Debug\CodeExercises.dll
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises\obj\Debug\CodeExercises.pdb
