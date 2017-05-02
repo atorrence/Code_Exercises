@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountingSheep.cs" />
+    <Compile Include="DriversLicense.cs" />
     <Compile Include="ExesAndOhs.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="PopulationGrowth.cs" />
