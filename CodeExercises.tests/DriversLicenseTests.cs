@@ -12,27 +12,30 @@ namespace CodeExercises.Tests
     public class DriversLicenseTests
     {
         [TestMethod()]
-        public void GetDriversLicenseTestFalse()
+        public void GetDriversLicenseTestUnder16()
         {
-            //Arrange
             DriversLicense dL = new DriversLicense();
-            //Act
-            bool answer = dL.GetDriversLicense(16, 20, false, true);
-            bool answer2 = dL.GetDriversLicense(16, 50, false, false);
-            //Assert
+            bool answer = dL.GetDriversLicense(15, 20, false, true);
             Assert.IsFalse(answer);
-            Assert.IsFalse(answer2);
         }
-             public void GetDriversLicenseTestTrue()
+        public void GetDriversLicenseTest16ButNotEnoughHours()
         {
-            //Arrange
             DriversLicense dL = new DriversLicense();
-            //Act
-            bool answer3 = dL.GetDriversLicense(16, 50, true, true);
-            bool answer4 = dL.GetDriversLicense(18, 0, true, true);
-            //Assert
-            Assert.IsTrue(answer3);
-            Assert.IsTrue(answer4);
+            bool answer = dL.GetDriversLicense(16, 20, false, true);
+            Assert.IsFalse(answer);
+        }
+        public void GetDriversLicenseTestBetween16and18()
+        {
+
+            DriversLicense dL = new DriversLicense();
+            bool answer = dL.GetDriversLicense(16, 50, true, true);
+            Assert.IsTrue(answer);
+        }
+        public void GetDriversLicenseTest1Over18()
+        {
+            DriversLicense dL = new DriversLicense();
+            bool answer = dL.GetDriversLicense(18, 0, true, true);
+            Assert.IsTrue(answer);
         }
     }
 }

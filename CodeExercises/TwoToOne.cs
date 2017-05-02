@@ -13,22 +13,9 @@ namespace CodeExercises
         public static string Longest(string s1, string s2)
         {
             string str = s1 + s2;
-            string answer = new string(str.Distinct().ToArray());
-            //Why is answer a string, but we cast it toArray?
-            char[] c = answer.ToCharArray();
-            Array.Sort(c);
-            return new String(c);
-            
-            // your code
-            //string str = s1 + s2;
-            ////string answer = new String(str.Distinct().ToArray());
-            //char[] result = str.ToArray();
-            ////result.Distinct();
-            //Array.Sort(result);
-            //string r = string.Concat(result);
-            ////string answer = (result.Distinct());
-            ////string r = string.Concat(result);
-            //return sS;
+            char[] distinctCharacters = (str.Distinct().ToArray());
+            Array.Sort(distinctCharacters);
+            return new String(distinctCharacters);
         }
     }
 }

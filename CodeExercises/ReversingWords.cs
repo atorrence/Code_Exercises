@@ -14,20 +14,16 @@ namespace CodeExercises
 
         public string reverseWords(string text)
         {
-            //text.Split(' ');
-            //foreach (var word in text)
-            //{
-            //    string temp = word[0];
-            //    word[length-1] = word[0];
-            //}
             string[] inputarray = text.Split(' ');
-            //string result = "";
-            Array.Reverse(inputarray);
-            //for (int i = 0; i < inputarray.Length-1; i++)
-            //{
-            //    result += " " + inputarray[i];
-            //}
-            string result = string.Join(" ", inputarray);
+            string result = "";
+            for (int i = inputarray.Length-1; i >= 0; i--)
+            {
+                if (i != inputarray.Length - 1)
+                {
+                    result += " ";
+                }
+                result += inputarray[i];
+            }
             return result;
         }
     }

@@ -10,7 +10,6 @@ namespace CodeExercises
     {
         public static int summation(int num)
         {
-            //Code here
             int sum = 0;
             for(int i = 1; i <= num; i++)
             {
