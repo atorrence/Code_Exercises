@@ -9,17 +9,18 @@ using System.Threading.Tasks;
 namespace CodeExercises.Tests
 {
     [TestClass()]
-    public class FizzBuzzTests
+    public class ReversingWordsTests
     {
         [TestMethod()]
-        public void GetFizzBuzzTest()
+        public void reverseWordsTest()
         {
             //Arrange
-            FizzBuzz fb = new FizzBuzz();
+            ReversingWords r = new ReversingWords();
             //Act
-            string result = fb.GetFizzBuzz(3);
+            //string result = r.reverseWords("Hello World");
             //Assert
-            Assert.AreEqual("Fizz", result);
+            Assert.AreEqual("World Hello", r.reverseWords("Hello World"));
+            Assert.AreEqual("test another is This", r.reverseWords("This is another test"));
         }
     }
 }

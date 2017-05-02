@@ -1,0 +1,8 @@
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\bin\Debug\CodeExercises.tests.dll
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\bin\Debug\CodeExercises.tests.pdb
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\bin\Debug\CodeExercises.dll
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\bin\Debug\CodeExercises.pdb
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\obj\Debug\CodeExercises.tests.csprojResolveAssemblyReference.cache
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\obj\Debug\CodeExercises.tests.dll
+C:\Users\Anita\Desktop\Tech Elevator\Projects\Code_Exercises\CodeExercises.tests\obj\Debug\CodeExercises.tests.pdb

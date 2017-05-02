@@ -9,17 +9,16 @@ using System.Threading.Tasks;
 namespace CodeExercises.Tests
 {
     [TestClass()]
-    public class FizzBuzzTests
+    public class TwoToOneTests
     {
         [TestMethod()]
-        public void GetFizzBuzzTest()
+        public void LongestTest()
         {
-            //Arrange
-            FizzBuzz fb = new FizzBuzz();
-            //Act
-            string result = fb.GetFizzBuzz(3);
-            //Assert
-            Assert.AreEqual("Fizz", result);
+            string s1 = "xyaabbbccccdefww";
+            string s2 = "xxxxyyyyabklmopq";
+            TwoToOne.Longest(s1, s2);
+            Assert.AreEqual("abcdefklmopqwxy", TwoToOne.Longest(s1, s2));
+            
         }
     }
 }

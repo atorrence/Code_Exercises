@@ -9,17 +9,15 @@ using System.Threading.Tasks;
 namespace CodeExercises.Tests
 {
     [TestClass()]
-    public class FizzBuzzTests
+    public class SummationTests
     {
         [TestMethod()]
-        public void GetFizzBuzzTest()
+        public void summationTest()
         {
-            //Arrange
-            FizzBuzz fb = new FizzBuzz();
-            //Act
-            string result = fb.GetFizzBuzz(3);
-            //Assert
-            Assert.AreEqual("Fizz", result);
+            
+            int result = Summation.summation(7);
+            Assert.AreEqual(28, result);
+
         }
     }
 }

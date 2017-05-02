@@ -50,8 +50,22 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="CountingSheepTests.cs" />
+    <Compile Include="DriversLicenseTests.cs" />
+    <Compile Include="ExesAndOhsTests.cs" />
+    <Compile Include="FizzBuzzTests.cs" />
+    <Compile Include="PopulationGrowthTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReversingWordsTests.cs" />
+    <Compile Include="StringRepeatTests.cs" />
+    <Compile Include="SummationTests.cs" />
+    <Compile Include="TwoToOneTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeExercises\CodeExercises.csproj">
+      <Project>{277A52FD-B78C-4C04-B5F9-C6D1CA26712E}</Project>
+      <Name>CodeExercises</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

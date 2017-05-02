@@ -9,17 +9,18 @@ using System.Threading.Tasks;
 namespace CodeExercises.Tests
 {
     [TestClass()]
-    public class FizzBuzzTests
+    public class StringRepeatTests
     {
         [TestMethod()]
-        public void GetFizzBuzzTest()
+        public void repeatStrTest()
         {
             //Arrange
-            FizzBuzz fb = new FizzBuzz();
+            StringRepeat sr = new StringRepeat();
             //Act
-            string result = fb.GetFizzBuzz(3);
+            //string result = sr.repeatStr(6, "I");
             //Assert
-            Assert.AreEqual("Fizz", result);
+            Assert.AreEqual("IIIIII", sr.repeatStr(6, "I"));
+            Assert.AreEqual("HelloHelloHelloHelloHello", sr.repeatStr(5, "Hello"));
         }
     }
 }
