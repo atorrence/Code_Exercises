@@ -40,9 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountingSheep.cs" />
     <Compile Include="ExesAndOhs.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="PopulationGrowth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReversingWords.cs" />
+    <Compile Include="StringRepeat.cs" />
+    <Compile Include="Summation.cs" />
+    <Compile Include="TwoToOne.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
