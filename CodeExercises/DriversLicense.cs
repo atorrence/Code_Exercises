@@ -21,11 +21,11 @@ namespace CodeExercises
             {
                 return false;
             }
-            if (age < 18 || hoursOfDrivingPractice < 50 || !passedVision || !passedWritten)
+            if (age < 18 && (hoursOfDrivingPractice < 50 || !passedVision || !passedWritten))
             {
                 return false;
             }
-            if (age >= 18 && (!passedWritten || !passedVision))
+            if (age >= 18 && !passedWritten || !passedWritten)
             {
                 return false;
             }

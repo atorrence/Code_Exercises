@@ -44,6 +44,8 @@
     <Compile Include="DriversLicense.cs" />
     <Compile Include="ExesAndOhs.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="LateArrival.cs" />
+    <Compile Include="NeedsECheck.cs" />
     <Compile Include="PopulationGrowth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReversingWords.cs" />
