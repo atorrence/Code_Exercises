@@ -50,15 +50,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AverageTests.cs" />
     <Compile Include="CountingSheepTests.cs" />
     <Compile Include="DriversLicenseTests.cs" />
+    <Compile Include="DubstepTests.cs" />
     <Compile Include="ExesAndOhsTests.cs" />
     <Compile Include="FizzBuzzTests.cs" />
+    <Compile Include="HighestOddExerciseTests.cs" />
     <Compile Include="LateArrivalTests.cs" />
     <Compile Include="NeedsECheckTests.cs" />
     <Compile Include="PopulationGrowthTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReversingWordsTests.cs" />
+    <Compile Include="SecondHighestExerciseTests.cs" />
     <Compile Include="StringRepeatTests.cs" />
     <Compile Include="SummationTests.cs" />
     <Compile Include="TwoToOneTests.cs" />

@@ -40,15 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Average.cs" />
     <Compile Include="CountingSheep.cs" />
     <Compile Include="DriversLicense.cs" />
+    <Compile Include="Dubstep.cs" />
     <Compile Include="ExesAndOhs.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="HighestOdd.cs" />
     <Compile Include="LateArrival.cs" />
     <Compile Include="NeedsECheck.cs" />
     <Compile Include="PopulationGrowth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReversingWords.cs" />
+    <Compile Include="SecondHighestExercise.cs" />
     <Compile Include="StringRepeat.cs" />
     <Compile Include="Summation.cs" />
     <Compile Include="TwoToOne.cs" />
